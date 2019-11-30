@@ -6,6 +6,13 @@ import (
 )
 
 func main() {
+	playWithTypes()
+	var myAwesomeInt myInt = myInt(1)
+	myAwesomeInt.IntPlusTwo()
+	println(myAwesomeInt)
+}
+
+func playWithTypes() {
 	var int1 uint8
 	int1 = 1
 	var int2 uint8 = 1
@@ -45,4 +52,5 @@ func main() {
 	fmt.Println(arr1, arr2)
 	fmt.Println(slice1, slice2)
 	fmt.Println(mapSquares)
+
 }
